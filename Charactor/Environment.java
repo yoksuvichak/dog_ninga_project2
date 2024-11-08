@@ -14,6 +14,7 @@ public class Environment extends Charactor_Template implements Method_Template {
     private int speed;
     private int eType;
     private Timer timeMove;
+    
     public Environment(int x, int y, JPanel page, int eType, int speed) {
         setX(x);
         setY(y);
